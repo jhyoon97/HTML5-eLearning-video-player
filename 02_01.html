@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">-->
+    <title> </title>
+    <link href="./css/common.css" rel="stylesheet"/>
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/data_load.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        var endType = 'videoEnd';
+        function loadSuccess(){
+            createMark([
+                {time : 6, text : '빅데이터란?'},
+                {time : 33, text : '의약품 빅데이터의 주요 활용가치'},
+                {time : 50, text : '빅데이터의 개념'}
+            ]);
+        }
+    </script>
+</head>
+<body>
+    <div class="loading_wrap"><span class="loading"></span></div>
+    <div id="content_wrap">
+        <div id="content">
+            <!-- /////////////////// 공통부분 //////////////////-->
+            <header id="header">
+                <div class="title_wrap">
+                    <div class="main_title"><p></p></div><p class="main_title_tail"></p>
+                    <div class="sub_title"></div>
+                </div>
+            </header>
+
+        	<section class="content_video">
+        		<video id="mainMedia" preload="metadata"></video>
+        	</section>
+        	
+            <footer class="controls"></footer>
+            <div id="script_wrap"><div id="script_text"></div></div>
+            <div id="menu"></div>
+            <!-- ///////////////// 공통부분 끝 /////////////////-->
+        </div>
+    </div>
+</body>
+</html>
