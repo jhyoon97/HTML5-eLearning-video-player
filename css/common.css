@@ -17,10 +17,10 @@
 body{position:absolute; width:100%; height:100%; background:#000; overflow:hidden;}
 button{tap-highlight-color:transparent; -webkit-tap-highlight-color:transparent; -moz-tap-highlight-color:transparent; -ms-tap-highlight-color:transparent; -o-tap-highlight-color:transparent; outline:none;}
 
-.loading_wrap{z-index:999; position:absolute; width:1000px; height:720px; top:50%; left:50%; margin:-320px 0 0 -500px; background:#fff; background-size:cover;}
+.loading_wrap{z-index:999; position:absolute; width:1000px; height:640px; top:50%; left:50%; margin:-320px 0 0 -500px; background:#fff; background-size:cover;}
 .loading_wrap .loading{position:absolute; display:inline-block; width:200px; height:58px; background:url(../images/loading.gif); margin:auto; padding:0; top:0; right:0; bottom:0; left:0;}
 #content_wrap{position:relative; width:100%; height:100%;}
-#content{z-index:998; position:absolute; width:1000px; height:720px; top:50%; left:50%; margin:-320px 0 0 -500px; overflow:hidden;}
+#content{z-index:998; position:absolute; width:1000px; height:640px; top:50%; left:50%; margin:-320px 0 0 -500px; overflow:hidden;}
 
 #alert_wrap{z-index:5; display:none; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);}
 #alert_wrap #alert_correct{position:absolute; width:244px; height:244px; top:50%; left:50%; margin-top:-122px; margin-left:-122px; background:url(../images/alert_correct.png);}
@@ -30,13 +30,13 @@ button{tap-highlight-color:transparent; -webkit-tap-highlight-color:transparent;
 #mobile_play img{position:absolute; width:576px; height:379px; top:50%; left:50%; margin-top:-190px; margin-left:-283px;}
 
 /*일반페이지 공통*/
-.content_html{z-index:1; position:absolute; margin:auto; padding:0; top:38px; left:0; width:1000px; height:642px; background:url(../images/content_bg.png) no-repeat; background-position:center; background-size:cover;}
+.content_html{z-index:1; position:absolute; margin:auto; padding:0; top:38px; left:0; width:1000px; height:562px; background:url(../images/content_bg.png) no-repeat; background-position:center; background-size:cover;}
 .content_html.sudden, 
 .content_html.quiz{background:url(../images/content_bg_q.png) no-repeat; background-position:center; background-size:cover;}
 .content_html.outro_ref{background:none;}
 .content_html.quiz{display:none;}
-.content_video{z-index:-1; position:absolute; top:38px; left:0; padding:0; width:1000px; height:642px;}
-video#mainMedia{position:absolute; margin:auto; padding:0; top:0; right:0; bottom:0; left:0; width:1000px; height:642px;}
+.content_video{z-index:-1; position:absolute; top:38px; left:0; padding:0; width:1000px; height:562px;}
+video#mainMedia{position:absolute; margin:auto; padding:0; top:0; right:0; bottom:0; left:0; width:1000px; height:562px;}
 
 /* 상단 과정명, 차시명 공통 */
 #header{z-index:3; display:inline-block; position:absolute; width:100%; min-width:1000px; height:38px; top:0; left:0; background:url(../images/head_bg_normal.png) no-repeat;}
